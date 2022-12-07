@@ -4,7 +4,7 @@
 
 This was my solution to address the fact, that DTSU-666 and its variants availability was "null".
 
-<img src="https://raw.githubusercontent.com/xyphro/Sun2000MeterTransposer/raw/main/photos/Installed%20in%20meter%20cabinet.jpg" width="50%"/>
+<img src="https://github.com/xyphro/Sun2000MeterTransposer/raw/main/photos/Installed%20in%20meter%20cabinet.jpg" width="50%"/>
 
 It works rock solid since several months without a single interruption.
 
