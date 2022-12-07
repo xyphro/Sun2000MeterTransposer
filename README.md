@@ -1,15 +1,16 @@
 # Sun2000MeterTransposer
 
-Enable other Smartmeters like SDM630 to connect to Huawei Sun2000 and look like DTSU-666.
+-> Enable other Smartmeters like SDM630 to connect to Huawei Sun2000 and look like DTSU-666.
 
 This was my solution to address the fact, that DTSU-666 and its variants availability was "null".
 
+<img src="https://raw.githubusercontent.com/xyphro/Sun2000MeterTransposer/raw/main/photos/Installed%20in%20meter%20cabinet.jpg" width="50%"/>
 
 It works rock solid since several months without a single interruption.
 
 The project is based on RP2040 Raspberry pi Zero module. It will work on the Wifi variant too, but there is no network access enabled.
 
-Note: I did not document the HW very well (yet), but want to share it still with the community. Build it at your own risk.
+Note: I did not document the HW very well (yet), but want to share it still with the community. Build it at your own risk. The pinning of the 2 UART channels can be seen in s2kserver.py module (or schematic).
 
 Warning: This project works with high voltage AC supply. You risk killing yourself, your family and friends, your pets. Take care and only work with line voltages when you are experienced in how much pain it causes to touch 230V :-)
 
@@ -25,7 +26,7 @@ photos: Some pictures of the actual build as inspiration
 Copy file sdm630.py and rename it to your meter name. Adjust it, such that the equivalent registers of your meter are read out and written to s2k module registers.
 Within file s2kserver.py:
 - You might need to change the UART settings like baudrate, parity in s2kserver during instatiation of uModBusSerial module.
-- change "from sdm630 import *" to your module name
+- change ```from sdm630 import *``` to your module name
 
 # Sourcecode orientation
 
