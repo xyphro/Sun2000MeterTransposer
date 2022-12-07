@@ -16,10 +16,10 @@ Warning: This project works with high voltage AC supply. You risk killing yourse
 
 # Folder structure
 
-hw: contains schematic / PCB in Eagle format.
-src: Micropython sourcecode - can be directly uploaded to RP2040 module using e.g. Thony IDE
-DinRainHousing: STL files for the 3D printed Dinrail housing
-photos: Some pictures of the actual build as inspiration
+- hw: contains schematic / PCB in Eagle format.
+- src: Micropython sourcecode - can be directly uploaded to RP2040 module using e.g. Thony IDE
+- DinRainHousing: STL files for the 3D printed Dinrail housing
+- photos: Some pictures of the actual build as inspiration
 
 # Adjustments to other meters
 
@@ -42,4 +42,5 @@ Credits go to:
 
 
 [1] https://github.com/pycom/pycom-modbus/tree/master/uModbus
+
 [2] https://github.com/elfabriceu/DTSU666-Modbus
