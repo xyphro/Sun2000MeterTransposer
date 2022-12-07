@@ -31,7 +31,7 @@ Within file s2kserver.py:
 # Sourcecode orientation
 
 main.py purpose is only to start s2kserver.py.
-s2kserver instantiates 2 threads to talk to 
+s2kserver instantiates 2 threads to server requests from Sun2000 inverter and poll SDM630 meter continously.
 
 # Credits
 
