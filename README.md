@@ -40,6 +40,10 @@ Credits go to:
 - DTSU666-Modbus [2] project: This project was of major support for the idea and to get register details. 
 - GitHub user salakrzy
 
+# Compatibility
+
+Tested with sun2000 3 phase 10kW inverters and proven working eith spc147 and 148 firmware versions. As of now there is no newer one available.
+
 
 [1] https://github.com/pycom/pycom-modbus/tree/master/uModbus
 
