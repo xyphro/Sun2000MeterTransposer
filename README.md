@@ -39,10 +39,11 @@ Credits go to:
 - uModbus [1] project. I changed the file slightly and included all dependencies within the src folder. Main modifications were done for speed/latency purposes
 - DTSU666-Modbus [2] project: This project was of major support for the idea and to get register details. 
 - GitHub user salakrzy
+- Kai for testing it in endless debug sessions remotely whilr I was still busy ibstalling my solar installation and could not test myself
 
 # Compatibility
 
-Tested with sun2000 3 phase 10kW inverters and proven working eith spc147 and 148 firmware versions. As of now there is no newer one available.
+Tested with sun2000 3 phase 10kW inverters and proven working with spc147 and 148 firmware versions. As of now there is no newer one available.
 
 
 [1] https://github.com/pycom/pycom-modbus/tree/master/uModbus
