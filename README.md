@@ -56,12 +56,12 @@ To make use of it adjust the settings within the user configurable settings in t
 
 Note that Chint DTSU666 usually uses those UART settings unless you configured it manually differently:
 
-'''
+```
 METER_UART_BAUDRATE = 9600
 METER_UART_BITS     = 8
 METER_UART_PARITY   = None
 METER_UART_STOPBITS = 2
-'''
+```
 
 
 [1] https://github.com/pycom/pycom-modbus/tree/master/uModbus
