@@ -51,8 +51,11 @@ Tested with sun2000 3 phase 10kW inverters and proven working with spc147 and 14
 ## 21st December 2022: 
 
 Github user Radek made a module to support CHINT DTSU666 electricity meter (dtsu666.py). Thanks a lot for sharing it!
-to make use of it adjust the settings within the user configurable settings in the file s2kserver.py.
+
+To make use of it adjust the settings within the user configurable settings in the file s2kserver.py.
+
 Note that Chint DTSU666 usually uses those UART settings unless you configured it manually differently:
+
 '''
 METER_UART_BAUDRATE = 9600
 METER_UART_BITS     = 8
