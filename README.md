@@ -40,10 +40,25 @@ Credits go to:
 - DTSU666-Modbus [2] project: This project was of major support for the idea and to get register details. 
 - GitHub user salakrzy
 - Kai for testing it in endless debug sessions remotely whilr I was still busy ibstalling my solar installation and could not test myself
+- Radek for making and providing his Chint DTSU666 module
 
 # Compatibility
 
 Tested with sun2000 3 phase 10kW inverters and proven working with spc147 and 148 firmware versions. As of now there is no newer one available.
+
+# Updates
+
+## 21st December 2022: 
+
+Github user Radek made a module to support CHINT DTSU666 electricity meter (dtsu666.py). Thanks a lot for sharing it!
+to make use of it adjust the settings within the user configurable settings in the file s2kserver.py.
+Note that Chint DTSU666 usually uses those UART settings unless you configured it manually differently:
+'''
+METER_UART_BAUDRATE = 9600
+METER_UART_BITS     = 8
+METER_UART_PARITY   = None
+METER_UART_STOPBITS = 2
+'''
 
 
 [1] https://github.com/pycom/pycom-modbus/tree/master/uModbus
